@@ -25,6 +25,29 @@ public class Investor {
 	}
 
 
+	public Investor(String name, String position, String foudation, String interest_area, String prefer_stage,
+			String resident_city, String plan_project_count, String single_project_amount, String begin_invest_date,
+			String have_invest_count, String project_to_next_count) {
+		super();
+		this.name = name;
+		this.position = position;
+		this.foudation = foudation;
+		this.interest_area = interest_area;
+		this.prefer_stage = prefer_stage;
+		this.resident_city = resident_city;
+		this.plan_project_count = plan_project_count;
+		this.single_project_amount = single_project_amount;
+		this.begin_invest_date = begin_invest_date;
+		this.have_invest_count = have_invest_count;
+		this.project_to_next_count = project_to_next_count;
+	}
+
+
+
+
+
+
+
 
 	//È«²¿ÊôÐÔ
 	public Investor(String name, String position, String foudation, String interest_area, String prefer_stage,
