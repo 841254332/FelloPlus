@@ -124,7 +124,7 @@ public class CrawlInvestor {
 				}
 				mat2 = Pattern.compile("<p>.*?</p>").matcher(mat1.group());
 				if (mat2.find()) {
-					investment.setStage(mat2.group().replaceAll("<.*?>", ""));
+					investment.setStage(mat2.group().replaceAll("<.*?>", "").replace("公司阶段：", ""));
 				}
 				mat2 = Pattern.compile("<div class=\"intro\">.*?</div>").matcher(mat1.group());
 				if (mat2.find()) {
